@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title>index.html</title>
+		<link rel = "shortcut icon" href = "images/son.jpg" type = "image/jpg">
+		<script>
+			function showcontent(){
+			document.getElementById("Show").innerHTML = "系級：資管二";
+			
+			}
+		</script>
+		
+	</head>
+	<body>
+		<div>
+			<h1>This is a demo website</h1>
+			<p>Click the button below to display the hidden content</p>
+			
+			<button type = "button"  onclick = "showcontent()"> <input type="button" style="background-image:url(images/son.jpg);width:280px;height:180px;"><br>Show hidden content</button>
+			<p id ="Show"></p>
+			
+		</div>
+
+	</body>
+</html>
